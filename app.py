@@ -115,7 +115,7 @@ Let’s simplify your online learning journey together!
 
 # Show the image (make sure it's in assets/ folder)
 try:
-    st.image("assets/edg.JPG", caption="Helping students simplify their learning!", use_column_width=True)
+    st.image("assets/edg.jpg", caption="Helping students simplify their learning!", use_column_width=True)
 except:
     st.warning("⚠️ Image not found. Please place your image as 'edg.JPG' inside the 'assets/' folder.")
 
